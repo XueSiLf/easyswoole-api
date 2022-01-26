@@ -1,0 +1,31 @@
+{
+    "name": "easyswoole/easyswoole-api",
+    "description": "An efficient swoole framework",
+    "type": "project",
+    "keywords": [
+        "swoole",
+        "framework",
+        "async",
+        "easyswoole"
+    ],
+    "homepage": "https://www.easyswoole.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "XueSi",
+            "email": "1592328848@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "ext-swoole": ">=4.4.4",
+        "ext-json": "*",
+        "easyswoole/easyswoole": "3.5.x",
+        "easyswoole/swoole-ide-helper": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
